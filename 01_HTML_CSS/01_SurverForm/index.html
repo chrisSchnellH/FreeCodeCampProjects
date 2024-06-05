@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <title>Survey Form Project</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <!--Header section-->
+        <header class="header">
+            <h1 id="title">Survey Form for IT Graduates</h1>
+            <p id="description">Your entry for the Softwaredevelopment</p>
+        </header>
+
+        <!--Main section-->
+        <main class="main">
+            <form id="survey-form">
+                <div class="form-group">
+                    <label id="name-label" for="name">Name</label>
+                    <input type="text" id="name" name="name" class="inputs" placeholder="Enter your first and lastname"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label id="city-label" for="city">City</label>
+                    <input type="text" id="city" name="city" class="inputs" placeholder="Enter your city" required>
+                </div>
+                <div class="form-group">
+                    <label id="email-label" for="email">Email</label>
+                    <input type="email" id="email" name="email" class="inputs" placeholder="Enter your Email" required>
+                </div>
+                <div class="form-group">
+                    <label id="number-label" for="number">Age <span class="age">(min: 18, max: 65)</span></label>
+                    <input type="number" id="number" name="email" class="inputs" placeholder="Enter your Age" min="18"
+                        max="65" required>
+                </div>
+
+                <div class="form-group">
+                    <p class="form-questions">What is your degree</p>
+                    <select id="dropdown" name="degree" class="inputs" required>
+                        <option disabled selected value>Choose your Degree</option>
+                        <option value="bachelorOfScience">Bachelor of Science</option>
+                        <option value="masterOfScience">Master of Science</option>
+                        <option value="doctorOfScience">Doctor of Science</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <p class="form-questions">Do you currently work?</p>
+                    <label for="workYes">
+                        <input type="radio" id="workYes" value="yes" name="work">Yes
+                    </label>
+                    <label for="workNo">
+                        <input type="radio" id="workNo" value="no" name="work">No
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <p>What kind of work do you want to do?</p>
+                    <label for="frontend">
+                        <input id="frontend" type="checkbox" value="frontend">Front-End
+                    </label>
+                    <label for="backend">
+                        <input id="backend" type="checkbox" value="backend">Back-End
+                    </label>
+                    <label for="fullstack">
+                        <input id="fullstack" type="checkbox" value="fullstack">Full-Stack
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <p>Tell us about your <span>favourite</span> techstack</p>
+                    <textarea placeholder="Enter your techstack" rows="5"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </main>
+
+    </div>
+
+    <!--Footer section-->
+    <footer>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+body {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+#main {
+    /* took gray and set opacity to 0.1 */
+    background: rgba(128, 128, 128, 0.1);
+    border-radius: 1%;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#underh1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+#img-div {
+    background-color: white;
+    padding: 50px 25px 20px 25px;
+    border-radius: 1%;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    filter: grayscale(100%);
+}
+
+#img-caption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#tribute-info {
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+    margin-left: 100px;
+}
+
+blockquote {
+    text-align: left;
+    font-style: italic;
+}

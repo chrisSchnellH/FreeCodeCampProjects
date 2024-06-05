@@ -1,0 +1,94 @@
+body {
+    font-family: "Poetsen One", sans-serif;
+    background-image: linear-gradient(100deg,
+            rgba(116, 116, 116, 0.6),
+            rgba(130, 130, 130, 0.8)), url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1%;
+    margin: 3rem 0 3rem auto;
+    padding: 0 2rem 1.2rem 2rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    margin-bottom: 0.2rem;
+    text-align: center;
+}
+
+header p {
+    margin-top: 0.2rem;
+    text-align: center;
+}
+
+main {
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    border-radius: 1%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.form-group label {
+    margin-bottom: 0.25rem;
+}
+
+.form-group input {
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.form-group select {
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-top-color: black;
+    border-left-color: black;
+    color: rgb(95, 95, 95);
+}
+
+.age {
+    font-size: 0.7rem;
+}
+
+.form-group p {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+}
+
+textarea {
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(64, 180, 35);
+    color: white;
+    border-radius: 5px;
+    border-width: 2px;
+}

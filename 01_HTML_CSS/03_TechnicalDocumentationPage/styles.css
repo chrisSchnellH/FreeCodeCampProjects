@@ -1,0 +1,184 @@
+body {
+    font-family: 'Franklin Gothic Small', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2;
+}
+
+#navbar {
+    border-right: 3px solid gray;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+nav ul {
+    padding: 0
+}
+
+nav li {
+    list-style: none;
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 250px;
+}
+
+section {
+    padding-bottom: 20px;
+}
+
+section header {
+    text-align: left;
+    padding-bottom: 0px;
+}
+
+section p {
+    color: rgba(0, 0, 0, 0.7);
+    text-align: left;
+    padding-left: 20px;
+}
+
+section ul,
+section ol {
+    padding-left: 60px;
+}
+
+cite {
+    font-size: 0.8rem;
+}
+
+.promp {
+    font-weight: bold;
+}
+
+section li:nth-of-type(1) {
+    color: green;
+}
+
+section li:nth-of-type(2) {
+    color: red;
+}
+
+.code {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+pre code {
+    display: block;
+}
+
+@media only screen and (max-width: 760px) {
+    body {
+        font-family: 'Franklin Gothic Small', 'Arial Narrow', Arial, sans-serif;
+        line-height: 2;
+        margin: 0;
+    }
+
+    header {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 20px;
+
+    }
+
+    section {
+        padding-bottom: 20px;
+    }
+
+    section header {
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    section p {
+        color: rgba(0, 0, 0, 0.7);
+        text-align: left;
+        padding-left: 20px;
+        margin: 0;
+    }
+
+    section ul,
+    section ol {
+        padding-left: 20px;
+        margin: 0;
+    }
+
+    cite {
+        font-size: 0.8rem;
+    }
+
+    .promp {
+        font-weight: bold;
+    }
+
+    section li:nth-of-type(1) {
+        color: green;
+    }
+
+    section li:nth-of-type(2) {
+        color: red;
+    }
+
+    /* #navbar {
+        position: static;
+        border: 2px solid black;
+        display: block;
+        margin-bottom: 300px;
+        padding: 300px;
+    } */
+
+    #navbar ul {
+
+        height: 207px;
+    }
+
+    #navbar {
+        background-color: white;
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-height: 275px;
+    }
+
+    #main-doc {
+        margin: 350px 0px 0px 0px;
+        /* margin: 0; */
+        padding: 10px;
+    }
+
+    .code {
+        padding: 10px;
+        background-color: #f4f4f4;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+    }
+}
