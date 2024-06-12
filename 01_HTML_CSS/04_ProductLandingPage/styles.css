@@ -11,13 +11,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(130, 130, 130, 0.5);
+    background-color: rgba(130, 130, 130, 1);
     position: fixed;
     width: 100%;
     margin-top: 0px;
     top: 0;
     left: 0;
     border: 1px solid rgba(130, 130, 130, 0.25);
+    z-index: 1;
 }
 
 header img {
@@ -31,7 +32,6 @@ header img {
 
 header ul {
     display: flex;
-    /* justify-content: flex-end; */
 }
 
 header li {
@@ -58,6 +58,14 @@ header li {
     align-items: center;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -77,4 +85,70 @@ input {
 #submit:hover {
     background-color: rgb(141, 209, 38);
     cursor: pointer;
+}
+
+h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+p {
+    margin-top: 0px;
+}
+
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.costs {
+    border: 1px solid black;
+    width: 50%;
+    margin: 5px
+}
+
+.opportunities {
+    background-color: rgba(130, 130, 130, 1);
+    text-transform: uppercase;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#pricing>.costs>ul {
+    margin-top: 0px;
+}
+
+li {
+    text-align: left;
+}
+
+@media (max-width: 550px) {
+    #pricing {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container:nth-of-type(1) {
+        margin-top: 70px;
+    }
 }
