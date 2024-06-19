@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+
+:root {
+    --bg-color: #080808d2;
+    --second-bg-color: #1313139d;
+    --text-color: white;
+    --main-color: #ff0000cc;
+}
+
+body {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+.container {
+    box-shadow: 0 0 25px var(--main-color);
+}
+
+input#text-input.rounded {
+    background-color: var(--second-bg-color);
+    color: var(--text-color) !important;
+}
+
+.btn.m-2 {
+    background-color: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+    transition: transform 0.3s ease;
+}
+
+.btn.m-2:hover {
+    background-color: var(--main-color);
+    transform: scale(1.1) translateY(5px);
+}
+
+.hr {
+    height: 1px;
+    border: 1px solid var(--main-color) !important;
+}
