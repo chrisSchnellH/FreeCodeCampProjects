@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container mt-5 rounded">
+        <div class="row justify-content-around">
+            <div class="col-md-4 text-center m-3">
+                <div class="d-flex flex-column align-items-center">
+                    <h1 class="m-4">Roman numeral converter</h1>
+                    <div
+                        class="border border-danger rounded container-fluid m-4 d-flex flex-column justify-content-center align-items-center">
+                        <label for="id" class="container-fluid mt-2">Enter your number:</label>
+                        <input type="number" class="container-fluid m-2 rounded form-control form-control-md"
+                            id="number">
+                        <button class="btn btn-secondary container-fluid mb-3 mt-2" id="convert-btn">Convert</button>
+                    </div>
+                    <div class="border border-danger rounded container-fluid m-4" id="output">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center m-3">
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">Roman numerals</th>
+                            <th scope="col">Arabic numerals</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>M</td>
+                            <td>1000</td>
+                        </tr>
+                        <tr>
+                            <td>CM</td>
+                            <td>900</td>
+                        </tr>
+                        <tr>
+                            <td>D</td>
+                            <td>500</td>
+                        </tr>
+                        <tr>
+                            <td>CD</td>
+                            <td>400</td>
+                        </tr>
+                        <tr>
+                            <td>C</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>XC</td>
+                            <td>90</td>
+                        </tr>
+                        <tr>
+                            <td>L</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>XL</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>X</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>IX</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>V</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>IV</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>I</td>
+                            <td>1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
