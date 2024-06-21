@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+
+:root {
+    --bg-color: #080808d2;
+    --second-bg-color: #1313139d;
+    --text-color: white;
+    --main-color: #ff0000cc;
+}
+
+body {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+.handy-container {
+    margin-top: 100px;
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 2%;
+    background-color: black;
+}
+
+.handy-cam {
+    background-color: gray;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.handy-screen {
+    background-color: gray;
+    width: 250px;
+    height: 410px;
+    margin: auto;
+    border-radius: 2%;
+}
