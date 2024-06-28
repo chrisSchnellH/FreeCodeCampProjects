@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+
+:root {
+    --bg-color: #080808d2;
+    --second-bg-color: #1313139d;
+    --text-color: white;
+    --main-color: #ff0000cc;
+}
+
+body {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+#change-due p {
+    color: white;
+}
+
+.cash-register {
+    width: 400px;
+    height: 350px;
+}
+
+.price-screen {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(153, 201, 255);
+    margin-left: 30px;
+}
+
+#total {
+    background-color: black;
+    width: 95%;
+    font-size: large;
+}
+
+.connector {
+    margin-left: 75px;
+    width: 40px;
+    height: 35px;
+    background-color: rgb(153, 201, 255);
+}
+
+.top-register {
+    width: 400px;
+    height: 250px;
+    background-color: rgb(153, 201, 255);
+    border-radius: 40px 40px 0 0;
+}
+
+.bottom-register {
+    width: 400px;
+    height: 50px;
+    margin-top: 15px;
+    background-color: rgb(153, 201, 255);
+}
+
+.buttons {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+    line-height: 0px;
+}
+
+.register-btn {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+strong {
+    color: black;
+}
+
+.cash-drawer {
+    background-color: white;
+    margin: 10px 0 10px 0;
+}
+
+.bottem-register-point {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.cash-drawer.d-flex.flex-column.justify-content-around.flex-wrap.p {
+    margin: 0px !important;
+    font-size: 0.9rem;
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 0.9rem;
+    margin-bottom: 0px !important;
+}
