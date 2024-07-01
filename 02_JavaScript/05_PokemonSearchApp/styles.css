@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+
+:root {
+    --bg-color: #080808d2;
+    --second-bg-color: #1313139d;
+    --text-color: white;
+    --main-color: #ff0000cc;
+}
+
+body {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+.container.border.mt-2 {
+    max-width: 600px;
+}
+
+#type-normal {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #C1C2C1;
+}
+
+#type-fighting {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #FFAC59;
+}
+
+#type-flying {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #ADD2F5;
+}
+
+#type-poison {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #B884DD;
+}
+
+#type-ground {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #B88E6F;
+}
+
+#type-rock {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #CBC7AD;
+}
+
+#type-bug {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #B8C26A;
+}
+
+#type-ghost {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #A284A2;
+}
+
+#type-steel {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #98C2D1;
+}
+
+#type-fire {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #EF7374;
+}
+
+#type-water {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #74ACF5;
+}
+
+#type-grass {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #82C274;
+}
+
+#type-electric {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #FCD659;
+}
+
+#type-psychic {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #F584A8;
+}
+
+#type-ice {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #81DFF7;
+}
+
+#type-dragon {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #8D98EC;
+}
+
+#type-dark {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #998B8C;
+}
+
+#type-fairy {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #F5A2F5;
+}
+
+#type-stellar {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #83CFC5;
+}
+
+#type-unknown {
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: wheat;
+}
